@@ -11,6 +11,12 @@ export default function App() {
         setGoalsArray(currentGoals => [...currentGoals, goal])
     }
 
+    const deleteGoal = (id) => {
+        setGoalsArray(currentGoals => {
+            return currentGoals.filter((goal, index) => index !== id);
+        })
+    }
+
     return (
         <View style={styles.appContainer}>
             <GoalInput onAddGoal={addGoal}></GoalInput>
@@ -20,7 +26,7 @@ export default function App() {
                     data={goalsArray}
                     renderItem={(itemData) => {
                         return (
-                            <GoalItem data={itemData.item} ></GoalItem>
+                            <GoalItem data={itemData.item} index={itemData.index} onDeleteGoal={deleteGoal}></GoalItem>
                         )
                     }}
                     keyExtractor={(item, index) => {

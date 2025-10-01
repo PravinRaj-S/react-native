@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841115002333",
+    "project_id": "push-notifications-b7e78",
+    "storage_bucket": "push-notifications-b7e78.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841115002333:android:0453b06327c82942414234",
+        "android_client_info": {
+          "package_name": "com.pravin.cs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJnI_1YwKcDDBostBYuxBme2BnfZWiUHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

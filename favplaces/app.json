@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cs",
-    "slug": "push-notification",
+    "name": "favplaces",
+    "slug": "favplaces",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,9 +16,6 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.pravin.cs",
-      "googleServicesFile": "./google-services.json",
-      "useNextNotificationsApi": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -27,20 +24,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#ffffff"
-        }
-      ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "93229d8e-b58f-4a8a-ad9f-789079093bcd"
-      }
     }
   }
 }
